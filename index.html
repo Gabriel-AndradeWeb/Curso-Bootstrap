@@ -5,17 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cusro Bootstrap</title>
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="bootstrap-5.1.3-dist/css/bootstrap.min.css"
-    />
+    <link rel="stylesheet"type="text/css"href="bootstrap-5.1.3-dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="#">
         <img
+          class="logo"
           src="imagem/channels4_profile.jpg"
           alt="foto-logo"
           width="100" 
@@ -37,7 +35,9 @@
     </nav>
 
     <section id="quem-somos">
-      <div class="container-fluid text-center somos margin">
+      <div class="container-fluid text-center somos margin" data-aos="fade-down">
+        <br>
+        <br>
         <h1 class="text-font">Quem somos</h1>
         <img class="imagem-quem" src="imagem/digital-innovation-one.jpg" alt=""  />
         <p>
@@ -67,11 +67,11 @@
     </section>
 
     <section id="parceiros">
-      <div class="container-fluid text-center parceiros margin">
-        <h1>Parceiros</h1>
-        <div class="container">
+      <div class="container-fluid text-center parceiros margin ">
+        <h1 class="animate__animated animate__bounce">Parceiros</h1>
+        <div class="container" data-aos="fade-right">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 animate__fadeInDown">
                     <img src="imagem/santander-logo.png" alt="" >
                 </div>
                 <div class="col-md-4">
@@ -85,17 +85,17 @@
       </div>
     </section>
 
-    <section id="servicos">
+    <section id="servicos" data-aos="">
         <div class="container-fluid text-center margin servicos ">
             <h1> Serviços </h1>
-            <div class="container">
+            <div class="container" data-aos="fade-left">
                 <div class="row">
                     <div class="col-lg-6">
                         <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius soluta libero eaque dicta velit culpa quo ipsum odio minima ipsa in excepturi quos officia, vero nesciunt molestiae. Incidunt, voluptates modi?</p>
                         <img src="imagem/pexels-designecologist-1779487.jpg" alt="" width="100%">
                     </div>
                     <div class="col-lg-6">
-                        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia laboriosam deserunt rerum dolorum sit vitae eius omnis suscipit fuga, quasi voluptatum ullam illo laborum, perspiciatis tempore aliquid nostrum excepturi beatae!</p>
+                      <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius soluta libero eaque dicta velit culpa quo ipsum odio minima ipsa in excepturi quos officia, vero nesciunt molestiae. Incidunt, voluptates modi?</p>
                         <img src="imagem/2.jpg" alt="" width="100%">
                     </div>
                 </div>
@@ -106,5 +106,13 @@
     <footer class="container-fluid bg-footer text-center">
         <p> &copy; Desenvolvido por Gabriel Andrade </p>
     </footer>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000
+      })
+    </script>
   </body>
 </html>

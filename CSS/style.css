@@ -12,7 +12,9 @@
     margin-left: 20px;
 }
 
-
+.logo{
+    padding-top: 20px;
+}
 
 #quem-somos{
     background-color: rgb(199, 197, 197);
@@ -21,7 +23,7 @@
 }
 
 .imagem-quem{
-    max-width: 40%;
+    max-width: 55%;
 }
 
 .text-font{
@@ -35,7 +37,8 @@ img{
 p{  
     color: rgb(8, 4, 4);
     margin: 15px auto;
-    max-width: 600px; 
+    max-width: 1000px; 
+    font-size: 20px;
 }
 
 .margin{
