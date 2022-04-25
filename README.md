@@ -1,6 +1,6 @@
 # Curso-Bootstrap
 
-Curso realizado na prataforma da **Dio.me**. com objetivo de apresentar bootstrap e funções sendo aplicadas. e com isso foi feito um site para mostra em praticar o que foi ensinado. 
+Curso realizado na prataforma da **Dio.me**. com objetivo de apresentar bootstrap e funções sendo aplicadas. e com isso foi feito um site para mostra em pratica o que foi ensinado. 
 
 [LINK DO SITE](https://gabriel-andradeweb.github.io/Curso-Bootstrap/)
 
